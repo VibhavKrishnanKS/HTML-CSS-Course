@@ -1,1 +1,1 @@
-This is a chuumma markdown
+This is a chuumma
