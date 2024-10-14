@@ -19,5 +19,3 @@
    <!-- Closing tag is same as opening tag but with a / -->
   <p>HTML is a markup language</p>
 ```
-
-5. 
