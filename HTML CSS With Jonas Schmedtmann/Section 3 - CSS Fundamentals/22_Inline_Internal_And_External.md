@@ -30,7 +30,12 @@ The **color of the content** changes to **blue** now
 > One drawback here is that if we have a lot of CSS code using **Internal CSS** is not a good approach
 > * If suppose take the case where you have a lot   of CSS, then it would bloat the programming code
 
+### Method 3 - External CSS
+Put all the CSS Code into an **external CSS File**
 
+Create a new file named - **styles.css**
+We need to tell our HTML file that there exist a file named - **style.css** which is responsible to add styles to our file 
+For that we use the **link** element 
 
 
 
