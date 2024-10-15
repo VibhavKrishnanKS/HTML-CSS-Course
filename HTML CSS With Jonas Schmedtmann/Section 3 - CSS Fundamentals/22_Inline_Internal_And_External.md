@@ -1,8 +1,8 @@
-# Inline, Internal and External 
+# 22. Inline, Internal and External 
 
-###  Inline CSS  - but these types of styles should never be used 
+###  Method 1 - Inline CSS  - but these types of styles should never be used 
   This basically refers to **writing the CSS inside the HTML element**
-```CSS
+```HTML
   <h1 style="color: blue;">📘 The Code Magazine</h1> 
 ```
 The **color of the content** changes to **blue** now 
@@ -36,6 +36,16 @@ Put all the CSS Code into an **external CSS File**
 Create a new file named - **styles.css**
 We need to tell our HTML file that there exist a file named - **style.css** which is responsible to add styles to our file 
 For that we use the **link** element 
+```HTML
+  <!-- This is how you link a css stylesheet -->
+  <link rel="stylesheet" href="style.css">
+```
+Writing all the styles inside a file called **style.css**
+```CSS
+h1 {
+  color: blue;
+}
+```
 
 
 
