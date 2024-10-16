@@ -5,7 +5,7 @@
 h1 {
   /* color: blue; */
   font-size: 26px;
-  font-family: sans-serif;
+  font-family: sans-serif; 
   text-transform: uppercase;
   font-style: italic;
 }
@@ -39,3 +39,18 @@ p {
 #### NOTE
 * Here i have set the line-height to 1.5 (which conveys that **line height = 1.5 * (font-size)**)
 
+### 4. Concept of **Inheritance**
+1. We have to note a concept of inheritance here 
+  * We didn't set the styles for **em(emphasize)/strong/bold** the html automatically takes the font size for the styles that are included with the **paragraph tag**
+
+### 5. For the case of the element h4
+```CSS
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+```
+#### NOTE
+* The **text-align: center;** aligns the element which is inside the h4 tag to the center of the parent element within which it exists 
