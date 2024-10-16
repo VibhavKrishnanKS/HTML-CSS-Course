@@ -1,5 +1,13 @@
 # 23. Styling Text
 
+**List of CSS Attributes that we learnt in this lecture**
+1. **font-size** - This is to set the size of the font
+2. **font-family** - This is to set the font-family(that we are using)
+3. **text-transform**  - This is used to set the style of the text **(uppercase/lowercase/capitalize)**
+4. **font-style** - Set whether our text must be **italic/bold/etc**
+5. **line-height** - This is used to set the spaces between the lines
+6. **text-align** - This is used to align the items **(centre/left/right)**
+
 ### 1. First Styling our main heading first 
 ```CSS
 h1 {
@@ -54,3 +62,13 @@ h4 {
 ```
 #### NOTE
 * The **text-align: center;** aligns the element which is inside the h4 tag to the center of the parent element within which it exists 
+
+### 6. We don't actually style the ol/ul elements 
+```CSS
+li {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+```
+#### NOTE
+1. Initially the **font-size** will be **16px** by default
